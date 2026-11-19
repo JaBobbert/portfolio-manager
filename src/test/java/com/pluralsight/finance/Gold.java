@@ -10,6 +10,7 @@ public class Gold extends FixedAsset implements Valuable{
         this.weight = weight;
     }
 
+    @Override
     public BigDecimal getValue(){
         return BigDecimal.ZERO;
     }

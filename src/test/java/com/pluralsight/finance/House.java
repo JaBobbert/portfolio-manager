@@ -14,6 +14,7 @@ public class House extends FixedAsset implements Valuable{
         this.bedrooms = bedrooms;
     }
 
+    @Override
     public BigDecimal getValue(){
         return BigDecimal.ZERO;
     }

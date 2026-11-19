@@ -10,6 +10,7 @@ public class Jewelry extends FixedAsset implements Valuable{
         this.karat = karat;
     }
 
+    @Override
     public BigDecimal getValue(){
         return BigDecimal.ZERO;
     }
