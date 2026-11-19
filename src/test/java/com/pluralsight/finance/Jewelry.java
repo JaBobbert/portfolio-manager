@@ -1,0 +1,16 @@
+package com.pluralsight.finance;
+
+import java.math.BigDecimal;
+
+public class Jewelry extends FixedAsset implements Valuable{
+    private double karat;
+
+    public Jewelry(String name, double karat) {
+        super(name);
+        this.karat = karat;
+    }
+
+    public BigDecimal getValue(){
+        return BigDecimal.ZERO;
+    }
+}
