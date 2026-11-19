@@ -2,7 +2,7 @@ package com.pluralsight.finance;
 
 import java.math.BigDecimal;
 
-public class Jewelry extends FixedAsset implements Valuable{
+public class Jewelry extends FixedAsset{
     private double karat;
 
     public Jewelry(String name, double karat) {
